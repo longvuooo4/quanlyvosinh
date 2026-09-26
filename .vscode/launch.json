@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Karate • Bản mẫu",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "toolArgs": ["--dart-define=DEMO_MODE=true"]
+    },
+    {
+      "name": "Karate • Supabase dev",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "toolArgs": ["--dart-define-from-file=config/dev.json"]
+    }
+  ]
+}
